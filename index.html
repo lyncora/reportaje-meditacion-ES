@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio Reportaje | Apaga tu Ansiedad</title>
+  <meta name="description" content="Audio Reportaje — descubre por qué funciona el programa Apaga tu Ansiedad.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f3f0;
+      color: #2f2a28;
+    }
+    .card {
+      width: min(680px, 100%);
+      background: white;
+      border-radius: 20px;
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0,0,0,.08);
+    }
+    .icon { font-size: 42px; margin-bottom: 10px; }
+    h1 { margin: 0 0 10px; font-size: 28px; }
+    .subtitle { margin: 0 auto 24px; max-width: 560px; line-height: 1.6; color: #665e5a; }
+    audio { width: 100%; max-width: 560px; }
+    .note { margin-top: 18px; font-size: 13px; color: #8a817d; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">🎧</div>
+    <h1>Audio Reportaje</h1>
+    <p class="subtitle">
+      Una experiencia inmersiva que explora el programa y explica la lógica
+      detrás de cada etapa de esta metodología de transformación.
+    </p>
+
+    <!-- Keep the MP3 in the same folder as this index.html -->
+    <audio controls preload="metadata">
+      <source src="audio-reportaje.mp3" type="audio/mpeg">
+      Tu navegador no puede reproducir este audio.
+    </audio>
+
+    <p class="note">Puedes escuchar el audio directamente desde esta página.</p>
+  </main>
+</body>
+</html>
